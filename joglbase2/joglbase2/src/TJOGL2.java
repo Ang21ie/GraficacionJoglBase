@@ -168,9 +168,9 @@ public class TJOGL2 extends GLJPanel implements GLEventListener, KeyListener {
         gl.glEnable(GL2.GL_LIGHTING);
         gl.glEnable(GL2.GL_LIGHT0);
 
-        this.textura1 = this.cargarTextura("imagenes/manodigital.jpg");
+        this.textura1 = this.cargarTextura("imagenes/bts.jpg");
         //Mi textura:
-        this.textura2 = this.cargarTextura("imagenes/texture.jpg");
+        this.textura2 = this.cargarTextura("imagenes/texture1.jpg");
 
         // Habilitar el uso de texturas
         gl.glEnable(GL2.GL_TEXTURE_2D);
